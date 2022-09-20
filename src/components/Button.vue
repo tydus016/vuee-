@@ -16,7 +16,7 @@
         },
         methods: {
             onClick(){
-                console.log('??')
+                this.$emit('btn-click')
             }
         }
     }
